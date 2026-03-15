@@ -1,0 +1,39 @@
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local temp and logs
+*.log
+*.tmp
+*.bak
+*.out
+
+# APK and reverse-engineering bulk artifacts
+**/*.apk
+**/*.apkm
+**/*.xapk
+**/apk_unpacked/
+**/jadx_out/
+**/*.dex
+**/*.arsc
+**/*.bin
+**/*.jar
+**/*.class
+**/*.so
+
+# Databases and local analysis state
+**/*.sqlite
+**/*.db
+
+# Android Studio / Gradle local state
+**/.gradle/
+**/build/
+**/.idea/
+**/local.properties
+
+# Emulator and device artifacts
+**/captures/
+**/*.hprof
+**/*.trace
